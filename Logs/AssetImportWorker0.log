@@ -1,0 +1,781 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.28f1 (232e59c3f087) revision 2305625'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8027 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/PUTRI AYU MANURUNG/OneDrive/Documents/@@@unity/ini rpg/The Legend of Antara
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50496
+Successfully changed project path to: C:/Users/PUTRI AYU MANURUNG/OneDrive/Documents/@@@unity/ini rpg/The Legend of Antara
+C:/Users/PUTRI AYU MANURUNG/OneDrive/Documents/@@@unity/ini rpg/The Legend of Antara
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17068] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3350436088 [EditorId] 3350436088 [Version] 1048832 [Id] WindowsEditor(7,PutriAyuManurung) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17068] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3350436088 [EditorId] 3350436088 [Version] 1048832 [Id] WindowsEditor(7,PutriAyuManurung) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 162.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.28f1 (232e59c3f087)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PUTRI AYU MANURUNG/OneDrive/Documents/@@@unity/ini rpg/The Legend of Antara/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1691
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005932 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027057 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PUTRI AYU MANURUNG\OneDrive\Documents\@@@unity\ini rpg\The Legend of Antara\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PUTRI AYU MANURUNG\OneDrive\Documents\@@@unity\ini rpg\The Legend of Antara\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1263ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (959ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3015 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.3 KB). Loaded Objects now: 3479.
+Memory consumption went from 107.0 MB to 107.0 MB.
+Total: 5.952100 ms (FindLiveObjects: 0.590400 ms CreateObjectMapping: 0.691000 ms MarkObjects: 4.576000 ms  DeleteObjects: 0.093600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 775339.467803 seconds.
+  path: Packages/com.unity.collab-proxy/package.json
+  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a51964fa343d87aa894a461405a6117') in 0.056459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.278190 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1002360e272cf591a214daa5cb5c75f8') in 0.005419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.715787 seconds.
+  path: Packages/com.unity.timeline/package.json
+  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e5276a0f85c2ad7a9d326e7333fc1b') in 0.004042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.835823 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f445814511be1caffb984507b3a4793') in 0.003872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.702533 seconds.
+  path: Packages/com.unity.test-framework/package.json
+  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3848ff7ccfeca2337678628a1ed2ce60') in 0.004776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.381853 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e8eb9b4c9c0c158f9e20494a16e55f') in 0.003700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.154779 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0000.png
+  artifactKey: Guid(3941383988981544a9b1696195018804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0000.png using Guid(3941383988981544a9b1696195018804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3409b78eb4d271bb30c84206723d11') in 0.120113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.248315 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0002.png
+  artifactKey: Guid(c3360b1355d1b834e927ddf9baa6f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0002.png using Guid(c3360b1355d1b834e927ddf9baa6f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087a47e5785e984076507dbe78d0d3a7') in 0.033144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346691 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0007.png
+  artifactKey: Guid(e315df20c140107489fb7c2d1991555a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0007.png using Guid(e315df20c140107489fb7c2d1991555a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bad84af9934aab0c8fdd1128ea6c77a') in 0.081546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0028.png
+  artifactKey: Guid(3ef94908ce28cb045902f60c32a928c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0028.png using Guid(3ef94908ce28cb045902f60c32a928c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e841910871ca13a19ea42556daf2de4') in 0.040946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0009.png
+  artifactKey: Guid(3bb0effbbb846db43a0e0dcea720d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0009.png using Guid(3bb0effbbb846db43a0e0dcea720d9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887070d62c9e30fe61d53616394a5a98') in 0.040246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0023.png
+  artifactKey: Guid(392e263c097a3424d8f5b8ffc7836f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0023.png using Guid(392e263c097a3424d8f5b8ffc7836f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff1b0398e6f817449d5e372d86fe048') in 0.043415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0013.png
+  artifactKey: Guid(9e15b0c9aa4dbbe48a9344cb68e861b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0013.png using Guid(9e15b0c9aa4dbbe48a9344cb68e861b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e13f86e9b09b1dc5712cc75c57870a') in 0.043644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0014.png
+  artifactKey: Guid(05f65bea5df57794cbc25209e71ceba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0014.png using Guid(05f65bea5df57794cbc25209e71ceba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47631d4991ec6b9c088f902bff299aa8') in 0.039363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0006.png
+  artifactKey: Guid(316489a0f50af6f4ba0ff597e95cb50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0006.png using Guid(316489a0f50af6f4ba0ff597e95cb50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9f08bb898ff0521d9265ab7bd2f4fc') in 0.041361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0017.png
+  artifactKey: Guid(7d5c0706369fbb34fa908669960f9adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0017.png using Guid(7d5c0706369fbb34fa908669960f9adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1a19212217a92b98f267d7e0fe0479') in 0.036996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0018.png
+  artifactKey: Guid(cacc559cde45cab478d4545ccdb395cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0018.png using Guid(cacc559cde45cab478d4545ccdb395cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4255a5d1e033a2e5e2d9c93ce99151a') in 0.037295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0025.png
+  artifactKey: Guid(55a19eac4fb38cd42ab9f9ab367ad409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0025.png using Guid(55a19eac4fb38cd42ab9f9ab367ad409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5fce5289b0a1039dd8dcb88aee40a2') in 0.048994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0022.png
+  artifactKey: Guid(eb3aad4830df16e469c2278f1fc312e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0022.png using Guid(eb3aad4830df16e469c2278f1fc312e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0eb15a940cfbbf712e0e9fd5b98447') in 0.039593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0003.png
+  artifactKey: Guid(f2957c47402fb7e488e1cee8cf295676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0003.png using Guid(f2957c47402fb7e488e1cee8cf295676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcff6834da97d7d0b89d9da702773d01') in 0.043002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0026.png
+  artifactKey: Guid(8d6df662a1b95db42a53948cc53772ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0026.png using Guid(8d6df662a1b95db42a53948cc53772ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c42c04e08372bae9276bc882558dbc') in 0.037832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.000331 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0031.png
+  artifactKey: Guid(0f613ca06a656a542b851c65c4f03889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0031.png using Guid(0f613ca06a656a542b851c65c4f03889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6361388ffe0838adf0f319f9a97b1aab') in 0.033305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0053.png
+  artifactKey: Guid(f429b70657874374ca94420a14b3d5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0053.png using Guid(f429b70657874374ca94420a14b3d5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574d3daf6979102636668df8f7df50ab') in 0.031691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0094.png
+  artifactKey: Guid(b1143ef8a237dc1409abe851dc6a1533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0094.png using Guid(b1143ef8a237dc1409abe851dc6a1533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0b9f03a90f612af223085968fa0856') in 0.039602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0087.png
+  artifactKey: Guid(de2348c8d18c5e14aa57fd55797cdd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0087.png using Guid(de2348c8d18c5e14aa57fd55797cdd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a62bf7162d60ab1da764ca3e2db976') in 0.034769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0060.png
+  artifactKey: Guid(d69b5d237431f7247b2b5c4053343c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0060.png using Guid(d69b5d237431f7247b2b5c4053343c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ad1d0cb5781f3956784206d0c7f187') in 0.033172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0117.png
+  artifactKey: Guid(c39396be2b890fd4099561bd70610ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0117.png using Guid(c39396be2b890fd4099561bd70610ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a83656c0166a261897aef0ba4b182c6') in 0.033990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0039.png
+  artifactKey: Guid(d1f86f7d8e907e24fa8fcf9711822510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0039.png using Guid(d1f86f7d8e907e24fa8fcf9711822510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153dd5488ab3eab229bfc22ed98f9e47') in 0.034024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0036.png
+  artifactKey: Guid(cc7f01576e9cfcf4985487eb7452e160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0036.png using Guid(cc7f01576e9cfcf4985487eb7452e160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df515a97ffe0d56001fffde090d258f4') in 0.046293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0059.png
+  artifactKey: Guid(2bff245e4f70aca44b6e1fc1f1a57f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0059.png using Guid(2bff245e4f70aca44b6e1fc1f1a57f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62f5c7f68807ace22a0ebea31f0abee') in 0.044205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0034.png
+  artifactKey: Guid(de0fdfd37decaf0489fae6f5741d1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0034.png using Guid(de0fdfd37decaf0489fae6f5741d1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdef05ac7140e04ff0eb2c1153f62070') in 0.036573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0043.png
+  artifactKey: Guid(f9408cf853997da49892ca42b23e0e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0043.png using Guid(f9408cf853997da49892ca42b23e0e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e882570ba68068bc6200a4a2430bb8') in 0.037118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0062.png
+  artifactKey: Guid(720db729653313f41bdd5f15200388ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0062.png using Guid(720db729653313f41bdd5f15200388ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfabb1474ba0f3fa6f97b7d4ca90e87a') in 0.038054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0103.png
+  artifactKey: Guid(f288d8ff4a1a7754882a8c659fc2d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0103.png using Guid(f288d8ff4a1a7754882a8c659fc2d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4519bd6b111b39482040af2037434e') in 0.039282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0075.png
+  artifactKey: Guid(09aa6fb6b41b81a44b5290039b7563ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0075.png using Guid(09aa6fb6b41b81a44b5290039b7563ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d36704755c5cc125c7927efe086ab75') in 0.053948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0137.png
+  artifactKey: Guid(b5c6485fccf07e34f98e6f459825464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0137.png using Guid(b5c6485fccf07e34f98e6f459825464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a8101cb174079eda7e590c23627a43') in 0.041566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0055.png
+  artifactKey: Guid(dfb13353d1221114d9227992d071c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0055.png using Guid(dfb13353d1221114d9227992d071c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65dcfecddc8795e1d41f9f70d816b3b') in 0.041655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0035.png
+  artifactKey: Guid(1ec850e907d13b94dbd263bf483aee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0035.png using Guid(1ec850e907d13b94dbd263bf483aee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc20a4ff6bef5aea922edb9d86097a6') in 0.036096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0107.png
+  artifactKey: Guid(57830bbd61e54084582c943ca863eba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0107.png using Guid(57830bbd61e54084582c943ca863eba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3a597ed30c7f718ef81b6fe8330d8a') in 0.034766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0033.png
+  artifactKey: Guid(f37a26b0f0fce0842ac67fc4b98f8d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0033.png using Guid(f37a26b0f0fce0842ac67fc4b98f8d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22aa53305b2ee423884a00dc6d4932c') in 0.036589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0074.png
+  artifactKey: Guid(340a9edf17f4f7b4d8761660b1e1ba23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0074.png using Guid(340a9edf17f4f7b4d8761660b1e1ba23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61899a7a6cada921f58f6482ae653be') in 0.042390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0118.png
+  artifactKey: Guid(d3ebcb839448d89449354f6dcf85f4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0118.png using Guid(d3ebcb839448d89449354f6dcf85f4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817ca2c2a996233a227cd390ef29d9ef') in 0.041726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0048.png
+  artifactKey: Guid(217932d2df49a28448b33c54b9983885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0048.png using Guid(217932d2df49a28448b33c54b9983885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8530e35a379a85ac83c932035952fe99') in 0.047131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0040.png
+  artifactKey: Guid(da8d489d13195ba49a8e980b44e1bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0040.png using Guid(da8d489d13195ba49a8e980b44e1bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11a91873cd65591dc6c62ed3fb935d9') in 0.042196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0099.png
+  artifactKey: Guid(21e24d43ede128040a571b2b1d788f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0099.png using Guid(21e24d43ede128040a571b2b1d788f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae52c7e09ca72eb5300a2b8f3cef61a3') in 0.036843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0038.png
+  artifactKey: Guid(da06e22ea7d2af64fb605d90b4d75280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0038.png using Guid(da06e22ea7d2af64fb605d90b4d75280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ccfaf1d400e6b4e3672f62b10a6781') in 0.035678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0050.png
+  artifactKey: Guid(266bd3178c69e6741bc103a631b3c3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0050.png using Guid(266bd3178c69e6741bc103a631b3c3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d12d1bd77fa48ee142535c566b73ca9') in 0.039855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0047.png
+  artifactKey: Guid(ba6f81ea203983b43bca708eaaa78377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0047.png using Guid(ba6f81ea203983b43bca708eaaa78377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5824cd6bb3bce7746276d8bd0fe9d48c') in 0.036087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0106.png
+  artifactKey: Guid(b93d3e894e1019846916b5d4b153279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0106.png using Guid(b93d3e894e1019846916b5d4b153279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1ef7abd60eca74e646f90ea613c45d') in 0.037615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0100.png
+  artifactKey: Guid(c8b34ec0ea3b8d243b4db8c3884994db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0100.png using Guid(c8b34ec0ea3b8d243b4db8c3884994db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345543a3a6c534bab52b829662cdefda') in 0.035456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0076.png
+  artifactKey: Guid(0980449dcdbdecb4eab5603032b4242c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0076.png using Guid(0980449dcdbdecb4eab5603032b4242c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0522452efe279a3917673708ed04c467') in 0.040155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0056.png
+  artifactKey: Guid(3c32759a4e232cc44a6ebccae411801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0056.png using Guid(3c32759a4e232cc44a6ebccae411801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c013776425fb7bb67e745a55c34e74') in 0.036123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0069.png
+  artifactKey: Guid(9d00ca17e9a15a94d9242a9825b19669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0069.png using Guid(9d00ca17e9a15a94d9242a9825b19669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d982df94511042750d10a03b2b8a937') in 0.040123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0057.png
+  artifactKey: Guid(5ac616654befb49419082d5cfce97aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0057.png using Guid(5ac616654befb49419082d5cfce97aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0a940489a79155c0d6c3d1eabdbd70') in 0.042630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0113.png
+  artifactKey: Guid(fe6e1e427f699d2479174f75d4be8626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0113.png using Guid(fe6e1e427f699d2479174f75d4be8626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c205c3f5b22e909f63e17f5cae05b7') in 0.044332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0086.png
+  artifactKey: Guid(70160602ea66aec4195cdfab049fa70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0086.png using Guid(70160602ea66aec4195cdfab049fa70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e11cf70eac5db9a8625e5cecaa3b24') in 0.044184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0037.png
+  artifactKey: Guid(df1c095acb8c7f14e9cd438d31939e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0037.png using Guid(df1c095acb8c7f14e9cd438d31939e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbb0ae7799d3c9b5d3aae4202b15e9a') in 0.041394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0089.png
+  artifactKey: Guid(8f255312f8d49514384d4d5ecc9857a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0089.png using Guid(8f255312f8d49514384d4d5ecc9857a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f55b798821bacd926dfab7505b2a66') in 0.046476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0077.png
+  artifactKey: Guid(76785ea4c3e72ca4195fe930a86bc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0077.png using Guid(76785ea4c3e72ca4195fe930a86bc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26c770da116f906485b33c8447cb6fc') in 0.040469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0140.png
+  artifactKey: Guid(0c74f18099172f340b17283111186e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0140.png using Guid(0c74f18099172f340b17283111186e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edca201b59f94a89b85a0369612ddadb') in 0.033097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0096.png
+  artifactKey: Guid(6c6602b59f4f02c478cf90497b1ff618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0096.png using Guid(6c6602b59f4f02c478cf90497b1ff618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f964211d12c9c062be392cfabd64d2a') in 0.037060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0098.png
+  artifactKey: Guid(c2f6b035e49876c4a88d36d42361c6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0098.png using Guid(c2f6b035e49876c4a88d36d42361c6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f3799e36a2740b264f9e1117c97125') in 0.032223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0061.png
+  artifactKey: Guid(eea4bd434f1d141419220065d05ab9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0061.png using Guid(eea4bd434f1d141419220065d05ab9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df001a4b8f7b6f1ee0e0c75b65c25e22') in 0.036583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0110.png
+  artifactKey: Guid(3c2e94b677b8e4c439c2dd0e5a5d31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0110.png using Guid(3c2e94b677b8e4c439c2dd0e5a5d31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc60d3ec1f86524ae1db34304df9908e') in 0.037199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0068.png
+  artifactKey: Guid(1c06bdf6107abae4bad72f6d01ec355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0068.png using Guid(1c06bdf6107abae4bad72f6d01ec355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9970c5a90aa80c7283771cc57153fef') in 0.043407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004807 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0109.png
+  artifactKey: Guid(4a6471fd81daf7c4cb7fd6ad5129fdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0109.png using Guid(4a6471fd81daf7c4cb7fd6ad5129fdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792603a93c9cf0647d8c3c8cbdcd2cff') in 0.030256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0078.png
+  artifactKey: Guid(7af5822c401445148a8b09f97ba97aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0078.png using Guid(7af5822c401445148a8b09f97ba97aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631a6916d733002d7755c9382238863e') in 0.037794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0052.png
+  artifactKey: Guid(72e72f49fdfc2d34abe5754dc10deaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0052.png using Guid(72e72f49fdfc2d34abe5754dc10deaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3002753b362e974ba9abec3351b10a75') in 0.039024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0066.png
+  artifactKey: Guid(f391c9b9ba990d14b89350a12b3dd7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 1/frame0066.png using Guid(f391c9b9ba990d14b89350a12b3dd7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd64f357e8ea1ea79d11d6675911fd8') in 0.041537 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (21.9 KB). Loaded Objects now: 3487.
+Memory consumption went from 49.8 MB to 49.8 MB.
+Total: 4.221700 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.281500 ms MarkObjects: 3.612100 ms  DeleteObjects: 0.032600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.201453 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0001.png
+  artifactKey: Guid(cc64d57fd845cb04b934101442a1543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0001.png using Guid(cc64d57fd845cb04b934101442a1543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be8d79df95131eec7772d84aeb4ee6c') in 0.038325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0020.png
+  artifactKey: Guid(6760075456edef146a7038eafb0dc70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0020.png using Guid(6760075456edef146a7038eafb0dc70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaab61bd4da60073e5ea717492ae6d25') in 0.037682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0005.png
+  artifactKey: Guid(8360cd25217f94644ae685e96ba8fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0005.png using Guid(8360cd25217f94644ae685e96ba8fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5207e02fd9a14fd00d480f2661222bd') in 0.045293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0030.png
+  artifactKey: Guid(13c2012b3eb8b2646b0e63f0a261e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0030.png using Guid(13c2012b3eb8b2646b0e63f0a261e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc651e705be843a8195e720478a6288a') in 0.036650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0027.png
+  artifactKey: Guid(365521ca586e9434a89122fec37dfaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0027.png using Guid(365521ca586e9434a89122fec37dfaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db9b045954f0d81cc25ac8789b46561') in 0.044839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0007.png
+  artifactKey: Guid(ff379ac10aa15c44fb4c5efe21fe08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0007.png using Guid(ff379ac10aa15c44fb4c5efe21fe08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1446adc119578845b5788174a8e5a248') in 0.048073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0009.png
+  artifactKey: Guid(b18185c8ca00b3945a4c5e2722a220b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0009.png using Guid(b18185c8ca00b3945a4c5e2722a220b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ea2312bd1bb3e9d7fa72e67160884c') in 0.046848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0014.png
+  artifactKey: Guid(980e46fc8c58a7441aa9dfc3800ac9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0014.png using Guid(980e46fc8c58a7441aa9dfc3800ac9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1980f53ca72c38e5990ca166e35dc308') in 0.042814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0004.png
+  artifactKey: Guid(7c3401ec00254954cb41425afaa36425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0004.png using Guid(7c3401ec00254954cb41425afaa36425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf72de47213d3258a2a9702479bf85af') in 0.039497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0010.png
+  artifactKey: Guid(e6fbb51cb6f65964c9114e16fbc489e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Pixel-Art Backgrounds - Free/Pixel-Art Background 2/frame0010.png using Guid(e6fbb51cb6f65964c9114e16fbc489e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64073e4d9f799c14aa49b887a689f92c') in 0.030548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.052384 seconds.
+  path: Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - And So It Begins.mp3
+  artifactKey: Guid(ba3b57a848bcec647b17053786158e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - And So It Begins.mp3 using Guid(ba3b57a848bcec647b17053786158e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441af1f9e16d6317210fe5c58ea4c944') in 0.098337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Poppy Field.mp3
+  artifactKey: Guid(6f3a9e44f860f6e4aba5ae39f95b21cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Poppy Field.mp3 using Guid(6f3a9e44f860f6e4aba5ae39f95b21cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b55e06fc59c86cbf829722b9eb13f65') in 0.024797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Crystal Cave.mp3
+  artifactKey: Guid(543a14f0f66662c458304f1951eb4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Crystal Cave.mp3 using Guid(543a14f0f66662c458304f1951eb4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f2c6db00162fdf68701349555b588c') in 0.026875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Flower Girl.mp3
+  artifactKey: Guid(cfd16cd50700207448ef2a6571dbc949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Flower Girl.mp3 using Guid(cfd16cd50700207448ef2a6571dbc949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ce09c34ab54ef9e4a286f9a98ce2a8') in 0.019889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Starry Night (Loopable).mp3
+  artifactKey: Guid(38d9006ebf65b77468fc9c8c67822396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Starry Night (Loopable).mp3 using Guid(38d9006ebf65b77468fc9c8c67822396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee151b789e4bf281adc540e4aa76e49') in 0.020986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - For Honour and Glory (Loopable).mp3
+  artifactKey: Guid(2def5a87cc5d8904db27560910da3962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - For Honour and Glory (Loopable).mp3 using Guid(2def5a87cc5d8904db27560910da3962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b81f8179b37c4244b58f4b558126da') in 0.026825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Give It Your All.mp3
+  artifactKey: Guid(1410ee7371144424a8c19f3c88204aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Give It Your All.mp3 using Guid(1410ee7371144424a8c19f3c88204aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec6da6f95dae60aa6c662ae628a3043') in 0.019495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Poppy Field (Loopable).mp3
+  artifactKey: Guid(9e4e0239c6dd663409bfd7523baa3dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElvGames/RPG Medieval Fantasy Bundle/MP3/RMF - Poppy Field (Loopable).mp3 using Guid(9e4e0239c6dd663409bfd7523baa3dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43721bcfc9686c919a17c744702a08ae') in 0.020877 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PUTRI AYU MANURUNG\OneDrive\Documents\@@@unity\ini rpg\The Legend of Antara\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PUTRI AYU MANURUNG\OneDrive\Documents\@@@unity\ini rpg\The Legend of Antara\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (21.9 KB). Loaded Objects now: 3496.
+Memory consumption went from 110.9 MB to 110.9 MB.
+Total: 8.164900 ms (FindLiveObjects: 0.966400 ms CreateObjectMapping: 0.380800 ms MarkObjects: 6.775300 ms  DeleteObjects: 0.038800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.525181 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/DownloadPlasticExeWindow.uss
+  artifactKey: Guid(3073089003718474ab284d743790fbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/DownloadPlasticExeWindow.uss using Guid(3073089003718474ab284d743790fbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e3fe24c2bd6ec5e0772f4366495da4') in 0.042216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/SignInWithEmailPanel.uss
+  artifactKey: Guid(b37675bc656348c429a6c56b2eda1345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Styles/SignInWithEmailPanel.uss using Guid(b37675bc656348c429a6c56b2eda1345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbf4924976f7c903584528ce1dfd49c') in 0.011218 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

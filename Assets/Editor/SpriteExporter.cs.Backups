@@ -1,0 +1,109 @@
+using System.IO;
+using UnityEngine;
+using UnityEditor;
+
+public class SpriteExporter : EditorWindow
+{
+    private Sprite[] spriteSheets;
+    private string outputFolder = "Assets/ExportedSprites"; // Default folder path
+
+    [MenuItem("Tools/Export Sprite Sheet")]
+    static void Init()
+    {
+        SpriteExporter window = GetWindow<SpriteExporter>("Export Sprite Sheet");
+        window.Show();
+    }
+
+    private void OnGUI()
+    {
+        Event evt = Event.current;
+
+        if (evt.type == EventType.DragUpdated || evt.type == EventType.DragPerform)
+        {
+            if (DragAndDrop.objectReferences.Length > 0)
+            {
+                DragAndDrop.visualMode = DragAndDropVisualMode.Copy;
+
+                if (evt.type == EventType.DragPerform)
+                {
+                    spriteSheets = new Sprite[DragAndDrop.objectReferences.Length];
+                    for (int i = 0; i < spriteSheets.Length; i++)
+                    {
+                        spriteSheets[i] = DragAndDrop.objectReferences[i] as Sprite;
+                    }
+                }
+
+                DragAndDrop.AcceptDrag();
+            }
+        }
+
+        EditorGUILayout.LabelField("Sprite Sheets");
+
+        EditorGUI.indentLevel++;
+
+        int newSize = EditorGUILayout.IntField("Size", spriteSheets != null ? spriteSheets.Length : 0);
+        if (newSize != (spriteSheets != null ? spriteSheets.Length : 0))
+        {
+            System.Array.Resize(ref spriteSheets, newSize);
+        }
+
+        for (int i = 0; i < newSize; i++)
+        {
+            spriteSheets[i] = EditorGUILayout.ObjectField("Element " + i, spriteSheets[i], typeof(Sprite), true) as Sprite;
+        }
+
+        EditorGUI.indentLevel--;
+        
+        EditorGUILayout.BeginHorizontal();
+        outputFolder = EditorGUILayout.TextField("Output Folder", outputFolder);
+        if (GUILayout.Button("Browse", GUILayout.Width(60)))
+        {
+            string newOutputFolder = EditorUtility.OpenFolderPanel("Select Output Folder", "", "");
+            if (!string.IsNullOrEmpty(newOutputFolder))
+            {
+                outputFolder = newOutputFolder;
+            }
+        }
+        EditorGUILayout.EndHorizontal();
+
+        if (GUILayout.Button("Export Sprite Sheet"))
+        {
+            ExportSpriteSheet();
+        }
+    }
+
+    void ExportSpriteSheet()
+    {
+        foreach (var spriteSheet in spriteSheets)
+        {
+            if (spriteSheet == null)
+            {
+                // Debug.LogError("Sprite Sheet must be selected.");
+                return;
+            }
+        
+            string spriteSheetPath = AssetDatabase.GetAssetPath(spriteSheet);
+        
+            TextureImporter textureImporter = AssetImporter.GetAtPath(spriteSheetPath) as TextureImporter;
+            textureImporter.isReadable = true;
+            AssetDatabase.ImportAsset(spriteSheetPath);
+            AssetDatabase.Refresh();
+        
+            Rect rect = spriteSheet.rect;
+            Texture2D spriteTexture = new Texture2D((int)rect.width, (int)rect.height);
+            spriteTexture.SetPixels(spriteSheet.texture.GetPixels((int)rect.x, (int)rect.y, (int)rect.width, (int)rect.height));
+            spriteTexture.Apply();
+        
+            byte[] bytes = spriteTexture.EncodeToPNG();
+            string spriteName = $"{spriteSheet.name}.png";
+            string spritePath = Path.Combine(outputFolder, spriteName);
+            File.WriteAllBytes(spritePath, bytes);
+        
+            Debug.Log($"Sprite exported: {spritePath}");
+        
+            textureImporter.isReadable = false;
+            AssetDatabase.ImportAsset(spriteSheetPath);
+            AssetDatabase.Refresh();
+        }
+    }
+}

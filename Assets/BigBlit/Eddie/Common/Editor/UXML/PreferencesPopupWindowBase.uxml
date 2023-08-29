@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/BigBlit/Eddie/Common/Editor/USS/PreferencesPopupWindowBase.uss" />
+    <ui:VisualElement name="Vertical" style="flex-grow: 1;">
+        <ui:VisualElement name="Header" style="margin-bottom: 4px; padding-bottom: 1px;">
+            <ui:Label text="Title" display-tooltip-when-elided="true" name="PaneTitle" />
+            <ui:Button display-tooltip-when-elided="true" name="PaneOptions" style="margin-right: 0;" />
+            <ui:Button display-tooltip-when-elided="true" name="PaneClose" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Content" style="height: 322px; border-left-color: rgb(255, 0, 0); border-right-color: rgb(255, 0, 0); border-top-color: rgb(255, 0, 0); border-bottom-color: rgb(255, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; flex-shrink: 0; flex-grow: 1;" />
+    </ui:VisualElement> 
+</ui:UXML>
